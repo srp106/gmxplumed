@@ -23,7 +23,7 @@ RUN apt-get -yq update \
  && rm -rf /var/lib/apt/lists/*
 
 # clone plumed into workdir
-RUN git clone --branch "v2.5.3" https://github.com/plumed/plumed2.git
+RUN git clone --branch "v2.6.0" https://github.com/plumed/plumed2.git
 
 # compile plumed
 WORKDIR $work/plumed2
