@@ -1,7 +1,7 @@
 # Start from cuda-10-devel ubuntu
 FROM nvidia/cuda:10.0-devel
  
-LABEL maintainer="Neven Golenic <neven.golenic@gmail.com>"
+LABEL maintainer="srinivas <penumutchu.srinivas@gmail.com>"
 
 # disable apt-get questions
 ARG DEBIAN_FRONTEND=noninteractive
